@@ -153,6 +153,7 @@ export async function shatterTarget(stage, targetEl, info) {
   showPop(stage, info, quick);
   if (quick) {
     sound.shatter();
+    if (info.onBurst) info.onBurst();
     targetEl.classList.add('flash-soft');
     await sleep(500);
     targetEl.classList.remove('flash-soft');
@@ -193,6 +194,7 @@ export async function shatterTarget(stage, targetEl, info) {
 
   // ② 破裂
   sound.shatter();
+  if (info.onBurst) info.onBurst();
   stage.classList.remove('shake'); void stage.offsetWidth; stage.classList.add('shake');
   const shards = buildShards(ix, iy, { x0: pad, y0: pad, x1: pad + w, y1: pad + hgt });
   const flashR = Math.max(w, hgt) * 0.9;

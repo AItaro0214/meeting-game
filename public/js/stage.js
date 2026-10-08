@@ -84,6 +84,9 @@ export function buildStage({ caseData, manifest, isRevealed, onOpen }) {
     noteEls.push(el);
   });
 
+  const subtitle = h('div', { class: 'subtitle', 'aria-live': 'polite' });
+  stage.append(subtitle);
+
   // ---- 装飾 ----
   stage.append(
     h('div', { class: 'plate' }, h('span', { class: 'plate-k' }, 'CASE FILE'), h('span', { class: 'plate-t' }, caseData.title)),
@@ -109,10 +112,10 @@ export function buildStage({ caseData, manifest, isRevealed, onOpen }) {
     targetEls[i].classList.remove('unsolved', 'shattering');
     targetEls[i].classList.add('revealed');
   }
-  async function shatter(i) {
+  async function shatter(i, onBurst) {
     const el = targetEls[i], t = scene.targets[i];
     const a = manifest._byId[t.assetId];
-    await shatterTarget(stage, el, { label: a ? a.label : '？？？', cx: t.x, cy: t.y - t.h / 2, top: t.y - t.h });
+    await shatterTarget(stage, el, { label: a ? a.label : '？？？', cx: t.x, cy: t.y - t.h / 2, top: t.y - t.h, onBurst });
     reveal(i);
   }
 
@@ -125,5 +128,5 @@ export function buildStage({ caseData, manifest, isRevealed, onOpen }) {
     stage.style.setProperty('--u', (w / 1000) + 'px');
   }
 
-  return { el: stage, targetEls, noteEls, refreshNote, reveal, shatter, fit };
+  return { el: stage, subtitle, targetEls, noteEls, refreshNote, reveal, shatter, fit };
 }

@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "voice": {
+    "start": [
+      {
+        "id": "start_1",
+        "file": "assets/audio/voice/start_1.mp3",
+        "text": "事件だ！",
+        "duration": 0.84
+      },
+      {
+        "id": "start_2",
+        "file": "assets/audio/voice/start_2.mp3",
+        "text": "やれやれ…また事件か。腕が鳴るぜ。",
+        "duration": 3.98
+      },
+      {
+        "id": "start_3",
+        "file": "assets/audio/voice/start_3.mp3",
+        "text": "現場に急行するぞ！",
+        "duration": 1.42
+      },
+      {
+        "id": "start_4",
+        "file": "assets/audio/voice/start_4.mp3",
+        "text": "さあ、謎を解き明かそうじゃないか。",
+        "duration": 3.17
+      },
+      {
+        "id": "start_5",
+        "file": "assets/audio/voice/start_5.mp3",
+        "text": "…静かすぎる。事件の匂いがするな。",
+        "duration": 3.55
+      },
+      {
+        "id": "start_6",
+        "file": "assets/audio/voice/start_6.mp3",
+        "text": "諸君、事件発生だ！",
+        "duration": 2.3
+      }
+    ],
+    "solve": [
+      {
+        "id": "solve_1",
+        "file": "assets/audio/voice/solve_1.mp3",
+        "text": "良い調子だ！",
+        "duration": 1.25
+      },
+      {
+        "id": "solve_2",
+        "file": "assets/audio/voice/solve_2.mp3",
+        "text": "流石、名探偵！",
+        "duration": 2.06
+      },
+      {
+        "id": "solve_3",
+        "file": "assets/audio/voice/solve_3.mp3",
+        "text": "大事な話だな…。",
+        "duration": 1.8
+      },
+      {
+        "id": "solve_4",
+        "file": "assets/audio/voice/solve_4.mp3",
+        "text": "ほう…そう来たか。",
+        "duration": 2.4
+      },
+      {
+        "id": "solve_5",
+        "file": "assets/audio/voice/solve_5.mp3",
+        "text": "一歩前進だ。",
+        "duration": 1.58
+      },
+      {
+        "id": "solve_6",
+        "file": "assets/audio/voice/solve_6.mp3",
+        "text": "なるほど、これで繋がった。",
+        "duration": 2.95
+      },
+      {
+        "id": "solve_7",
+        "file": "assets/audio/voice/solve_7.mp3",
+        "text": "冴えてるじゃないか。",
+        "duration": 1.75
+      },
+      {
+        "id": "solve_8",
+        "file": "assets/audio/voice/solve_8.mp3",
+        "text": "見事な推理だ。",
+        "duration": 1.58
+      },
+      {
+        "id": "solve_9",
+        "file": "assets/audio/voice/solve_9.mp3",
+        "text": "この調子で行こう。",
+        "duration": 1.2
+      },
+      {
+        "id": "solve_10",
+        "file": "assets/audio/voice/solve_10.mp3",
+        "text": "真相に近づいてきたぞ…。",
+        "duration": 1.97
+      }
+    ],
+    "lastOne": [
+      {
+        "id": "lastOne_1",
+        "file": "assets/audio/voice/lastOne_1.mp3",
+        "text": "残る謎は、あと一つ…。",
+        "duration": 3.26
+      },
+      {
+        "id": "lastOne_2",
+        "file": "assets/audio/voice/lastOne_2.mp3",
+        "text": "いよいよ大詰めだな。",
+        "duration": 1.92
+      },
+      {
+        "id": "lastOne_3",
+        "file": "assets/audio/voice/lastOne_3.mp3",
+        "text": "最後の手がかりだ。気を抜くなよ。",
+        "duration": 2.98
+      }
+    ],
+    "allSolved": [
+      {
+        "id": "allSolved_1",
+        "file": "assets/audio/voice/allSolved_1.mp3",
+        "text": "すべての謎が…解けた！",
+        "duration": 3
+      },
+      {
+        "id": "allSolved_2",
+        "file": "assets/audio/voice/allSolved_2.mp3",
+        "text": "これで全てが繋がった！",
+        "duration": 2.21
+      },
+      {
+        "id": "allSolved_3",
+        "file": "assets/audio/voice/allSolved_3.mp3",
+        "text": "さあ、事件の全貌を語ろうか。",
+        "duration": 4.25
+      },
+      {
+        "id": "allSolved_4",
+        "file": "assets/audio/voice/allSolved_4.mp3",
+        "text": "ついに、真相が明らかになったな。",
+        "duration": 3.43
+      }
+    ],
+    "closed": [
+      {
+        "id": "closed_1",
+        "file": "assets/audio/voice/closed_1.mp3",
+        "text": "悲しい…事件でした…。",
+        "duration": 3.14
+      },
+      {
+        "id": "closed_2",
+        "file": "assets/audio/voice/closed_2.mp3",
+        "text": "これにて、一件落着！",
+        "duration": 2.64
+      },
+      {
+        "id": "closed_3",
+        "file": "assets/audio/voice/closed_3.mp3",
+        "text": "事件は解決した。だが、会議はまだ続く…。",
+        "duration": 4.7
+      },
+      {
+        "id": "closed_4",
+        "file": "assets/audio/voice/closed_4.mp3",
+        "text": "今日もいい仕事をしたな。",
+        "duration": 2.06
+      },
+      {
+        "id": "closed_5",
+        "file": "assets/audio/voice/closed_5.mp3",
+        "text": "…ふっ。また会おう、名探偵。",
+        "duration": 2.98
+      }
+    ]
+  },
+  "music": {
+    "intro": "assets/audio/music/intro.mp3",
+    "reveal": "assets/audio/music/reveal.mp3",
+    "closed": "assets/audio/music/closed.mp3"
+  },
+  "sfx": {
+    "crack": [
+      "assets/audio/sfx/crack_1.mp3",
+      "assets/audio/sfx/crack_2.mp3"
+    ],
+    "shatter": [
+      "assets/audio/sfx/shatter_1.mp3",
+      "assets/audio/sfx/shatter_2.mp3",
+      "assets/audio/sfx/shatter_3.mp3"
+    ],
+    "stamp": [
+      "assets/audio/sfx/stamp.mp3"
+    ],
+    "thud": [
+      "assets/audio/sfx/thud.mp3"
+    ]
+  }
+}

@@ -67,14 +67,41 @@ export async function mountPlay(root, ctx, id) {
   // ---------- ヘッダー ----------
   const progText = h('span', { class: 'prog-text' });
   const progBar = h('i');
-  const muteBtn = h('button', { class: 'btn small', type: 'button', onclick: () => { sound.setMuted(!sound.isMuted()); syncMute(); } });
-  function syncMute() { muteBtn.textContent = sound.isMuted() ? '♪ OFF' : '♪ ON'; muteBtn.setAttribute('aria-pressed', String(!sound.isMuted())); }
-  syncMute();
+  const sfxBtn = h('button', { class: 'btn small', type: 'button', title: '効果音', onclick: () => { sound.setSfxOn(!sound.isSfxOn()); syncToggles(); } });
+  const voiceBtn = h('button', { class: 'btn small', type: 'button', title: 'ナレーション', onclick: () => { sound.setVoiceOn(!sound.isVoiceOn()); syncToggles(); } });
+  function syncToggles() {
+    sfxBtn.textContent = sound.isSfxOn() ? '🔊 効果音' : '🔇 効果音';
+    sfxBtn.setAttribute('aria-pressed', String(sound.isSfxOn()));
+    voiceBtn.textContent = sound.isVoiceOn() ? '🎙 ナレーション' : '🎙✕ ナレーション';
+    voiceBtn.setAttribute('aria-pressed', String(sound.isVoiceOn()));
+    if (!sound.isVoiceOn()) showSubtitle(null);
+  }
+  // 字幕
+  let subTimer = null;
+  function showSubtitle(s) {
+    const el = stageObj.subtitle;
+    clearTimeout(subTimer);
+    if (!s || !sound.isVoiceOn()) { el.classList.remove('show'); return; }
+    el.textContent = s.text;
+    el.style.setProperty('--sub-dur', Math.max(0.5, s.duration) + 's');
+    el.classList.remove('show'); void el.offsetWidth; el.classList.add('show');
+    subTimer = setTimeout(() => el.classList.remove('show'), s.duration * 1000 + 300);
+  }
+  sound.setSubtitleHandler(showSubtitle);
+  const later = (ms, fn) => setTimeout(() => { if (!disposed) fn(); }, ms);
+  let skippedSolve = 0;   // 解決ボイスを連続でスキップした回数
+  function solveVoice() {
+    const remain = c.items.filter(i => !i.solvedAt).length;
+    if (remain === 0) return;
+    if (remain === 1) { sound.playVoice('lastOne'); return; }
+    if (skippedSolve >= 2 || Math.random() < 0.65) { skippedSolve = 0; sound.playVoice('solve'); }
+    else skippedSolve++;
+  }
   const actions = h('div', { class: 'bar-actions' });
   const bar = h('header', { class: 'play-bar' },
     h('a', { class: 'btn small', href: '#/' }, '← 事件簿'),
     h('div', { class: 'progress' }, progText, h('span', { class: 'pbar' }, progBar)),
-    h('div', { class: 'bar-right' }, indicator, actions, muteBtn));
+    h('div', { class: 'bar-right' }, indicator, actions, sfxBtn, voiceBtn));
 
   function refreshChrome() {
     const n = solvedCount();
@@ -135,6 +162,8 @@ export async function mountPlay(root, ctx, id) {
     playEl.append(ov);
     await sleep(reducedMotion() ? 0 : 230);
     sound.thud();
+    sound.playMusic('closed');
+    later(800, () => sound.playVoice('closed'));
     ov.classList.add('hit');
     await sleep(reducedMotion() ? 900 : 2000);
     ov.classList.add('out');
@@ -190,7 +219,7 @@ export async function mountPlay(root, ctx, id) {
     touch(true);
     refreshChrome();
     busy++;
-    try { await stageObj.shatter(i); }
+    try { await stageObj.shatter(i, () => later(700, solveVoice)); }
     finally { busy--; }
     if (disposed) return;
     if (allSolved() && c.status === 'investigating') {
@@ -198,7 +227,11 @@ export async function mountPlay(root, ctx, id) {
       touch(true);
       refreshChrome();
       await sleep(500);
-      if (!disposed && !busy) setPanel(true);
+      if (!disposed && !busy) {
+        setPanel(true);
+        sound.playMusic('reveal');
+        later(500, () => sound.playVoice('allSolved'));
+      }
     }
   }
 
@@ -222,12 +255,13 @@ export async function mountPlay(root, ctx, id) {
   function downloadJson() { download(`${safeName()}.json`, JSON.stringify(c, null, 2), 'application/json'); }
 
   // ---------- 組み立て ----------
-  const playEl = h('div', { class: 'play' }, bar, wrap, panel, tab);
+  const playEl = h('div', { class: 'play' }, bar, wrap, panel, tab, stageObj.subtitle);   // 字幕は全貌パネルより前面に出す
   root.append(playEl);
   ro.observe(wrap);
   stageObj.fit(wrap);
   refreshChrome();
   setInd('');
+  syncToggles();
 
   const intro = ctx.intro === id;
   ctx.intro = null;
@@ -239,6 +273,8 @@ export async function mountPlay(root, ctx, id) {
       h('div', { class: 'intro-t' }, c.title));
     playEl.append(ov);
     stageObj.el.style.visibility = 'hidden';
+    sound.playMusic('intro');
+    later(600, () => sound.playVoice('start'));
     (async () => {
       await sleep(reducedMotion() ? 600 : 1500);
       if (disposed) return;
@@ -254,6 +290,9 @@ export async function mountPlay(root, ctx, id) {
 
   return () => {
     disposed = true;
+    clearTimeout(subTimer);
+    sound.setSubtitleHandler(null);
+    sound.stopAll();
     ro.disconnect();
     if (saveTimer) { clearTimeout(saveTimer); putCase(c, true).catch(() => {}); }
     document.querySelectorAll('.modal-overlay').forEach(e => e.remove());

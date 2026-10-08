@@ -1,0 +1,220 @@
+[
+  {
+    "id": "start_1",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "事件だ",
+    "reasons": []
+  },
+  {
+    "id": "start_2",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "やれやれ、また事件か。腕が鳴るぜ。",
+    "reasons": []
+  },
+  {
+    "id": "start_3",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "現場に急行するぞ",
+    "reasons": []
+  },
+  {
+    "id": "start_4",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "さあ、謎を解き明かそうじゃないか。",
+    "reasons": []
+  },
+  {
+    "id": "start_5",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "静かすぎる。事件の匂いがするな。",
+    "reasons": []
+  },
+  {
+    "id": "start_6",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "諸君、事件発生だ",
+    "reasons": []
+  },
+  {
+    "id": "solve_1",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "良い調子だ",
+    "reasons": []
+  },
+  {
+    "id": "solve_2",
+    "status": "ok",
+    "regenerated": 3,
+    "transcript": "さすが名探偵",
+    "reasons": [],
+    "note": "表記ゆれ(流石→さすが)のみのため合格扱い"
+  },
+  {
+    "id": "solve_3",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "大事な話だな",
+    "reasons": []
+  },
+  {
+    "id": "solve_4",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "ほう、そう来たか",
+    "reasons": []
+  },
+  {
+    "id": "solve_5",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "一歩前進だ",
+    "reasons": []
+  },
+  {
+    "id": "solve_6",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "なるほど。これで繋がった。",
+    "reasons": []
+  },
+  {
+    "id": "solve_7",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "冴えてるじゃないか",
+    "reasons": []
+  },
+  {
+    "id": "solve_8",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "見事な推理だ",
+    "reasons": []
+  },
+  {
+    "id": "solve_9",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "この調子で行こう",
+    "reasons": []
+  },
+  {
+    "id": "solve_10",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "真相に近づいてきたぞ",
+    "reasons": []
+  },
+  {
+    "id": "lastOne_1",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "残る謎はあと一つ",
+    "reasons": []
+  },
+  {
+    "id": "lastOne_2",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "いよいよ大詰めだな。",
+    "reasons": []
+  },
+  {
+    "id": "lastOne_3",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "最後の手がかりだ。気を抜くなよ。",
+    "reasons": []
+  },
+  {
+    "id": "allSolved_1",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "すべての謎が解けた",
+    "reasons": []
+  },
+  {
+    "id": "allSolved_2",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "これで全てが繋がった",
+    "reasons": []
+  },
+  {
+    "id": "allSolved_3",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "さあ、事件の全貌を語ろうか。",
+    "reasons": []
+  },
+  {
+    "id": "allSolved_4",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "ついに、真相が明らかになったな。",
+    "reasons": []
+  },
+  {
+    "id": "closed_1",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "悲しい事件でした",
+    "reasons": []
+  },
+  {
+    "id": "closed_2",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "これにて一件落着",
+    "reasons": []
+  },
+  {
+    "id": "closed_3",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "事件は解決した。だが、会議はまだ続く。",
+    "reasons": []
+  },
+  {
+    "id": "closed_4",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "今日もいい仕事をしたな",
+    "reasons": []
+  },
+  {
+    "id": "closed_5",
+    "status": "ok",
+    "regenerated": 0,
+    "transcript": "ふっ、また会おう、名探偵。",
+    "reasons": []
+  },
+  {
+    "id": "intro",
+    "status": "ok",
+    "duration": 4.54,
+    "headSilent": false,
+    "offset": 0
+  },
+  {
+    "id": "reveal",
+    "status": "ok",
+    "duration": 4.03,
+    "headSilent": false,
+    "offset": 0
+  },
+  {
+    "id": "closed",
+    "status": "ok",
+    "duration": 6.02,
+    "headSilent": false,
+    "offset": 0
+  }
+]

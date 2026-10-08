@@ -1,0 +1,32 @@
+{"at":"2026-10-08T13:01:35.454Z","id":"start_1","attempt":1,"expected":"事件だ！","transcript":"事件だ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:37.701Z","id":"start_2","attempt":1,"expected":"やれやれ…また事件か。腕が鳴るぜ。","transcript":"やれやれ、また事件か。腕が鳴るぜ。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:40.359Z","id":"start_3","attempt":1,"expected":"現場に急行するぞ！","transcript":"現場に急行するぞ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:44.139Z","id":"start_4","attempt":1,"expected":"さあ、謎を解き明かそうじゃないか。","transcript":"さあ、謎を解き明かそうじゃないか。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:47.593Z","id":"start_5","attempt":1,"expected":"…静かすぎる。事件の匂いがするな。","transcript":"静かすぎる。事件の匂いがするな。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:50.859Z","id":"start_6","attempt":1,"expected":"諸君、事件発生だ！","transcript":"諸君、事件発生だ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:53.570Z","id":"solve_1","attempt":1,"expected":"良い調子だ！","transcript":"良い調子だ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:01:57.750Z","id":"solve_2","attempt":1,"expected":"流石、名探偵！","transcript":"さすが名探偵","ok":false,"similarity":0.5,"reasons":["一致率 0.50 (しきい値 0.8)"]}
+{"at":"2026-10-08T13:01:59.532Z","id":"solve_3","attempt":1,"expected":"大事な話だな…。","transcript":"大事な話だな","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:03.967Z","id":"solve_2","attempt":2,"expected":"流石、名探偵！","transcript":"さすが名探偵","ok":false,"similarity":0.5,"reasons":["一致率 0.50 (しきい値 0.8)"]}
+{"at":"2026-10-08T13:02:07.194Z","id":"solve_4","attempt":1,"expected":"ほう…そう来たか。","transcript":"ほう、そう来たか","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:09.806Z","id":"solve_2","attempt":3,"expected":"流石、名探偵！","transcript":"さすが名探偵","ok":false,"similarity":0.5,"reasons":["一致率 0.50 (しきい値 0.8)"]}
+{"at":"2026-10-08T13:02:12.954Z","id":"solve_5","attempt":1,"expected":"一歩前進だ。","transcript":"一歩前進だ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:16.620Z","id":"solve_2","attempt":4,"expected":"流石、名探偵！","transcript":"さすが名探偵","ok":false,"similarity":0.5,"reasons":["一致率 0.50 (しきい値 0.8)"]}
+{"at":"2026-10-08T13:02:20.804Z","id":"solve_6","attempt":1,"expected":"なるほど、これで繋がった。","transcript":"なるほど。これで繋がった。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:22.939Z","id":"solve_7","attempt":1,"expected":"冴えてるじゃないか。","transcript":"冴えてるじゃないか","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:26.877Z","id":"solve_8","attempt":1,"expected":"見事な推理だ。","transcript":"見事な推理だ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:28.075Z","id":"solve_9","attempt":1,"expected":"この調子で行こう。","transcript":"この調子で行こう","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:33.616Z","id":"solve_10","attempt":1,"expected":"真相に近づいてきたぞ…。","transcript":"真相に近づいてきたぞ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:35.958Z","id":"lastOne_1","attempt":1,"expected":"残る謎は、あと一つ…。","transcript":"残る謎はあと一つ","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:39.312Z","id":"lastOne_2","attempt":1,"expected":"いよいよ大詰めだな。","transcript":"いよいよ大詰めだな。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:42.694Z","id":"lastOne_3","attempt":1,"expected":"最後の手がかりだ。気を抜くなよ。","transcript":"最後の手がかりだ。気を抜くなよ。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:47.071Z","id":"allSolved_1","attempt":1,"expected":"すべての謎が…解けた！","transcript":"すべての謎が解けた","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:49.879Z","id":"allSolved_2","attempt":1,"expected":"これで全てが繋がった！","transcript":"これで全てが繋がった","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:53.752Z","id":"allSolved_3","attempt":1,"expected":"さあ、事件の全貌を語ろうか。","transcript":"さあ、事件の全貌を語ろうか。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:57.066Z","id":"allSolved_4","attempt":1,"expected":"ついに、真相が明らかになったな。","transcript":"ついに、真相が明らかになったな。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:02:59.202Z","id":"closed_1","attempt":1,"expected":"悲しい…事件でした…。","transcript":"悲しい事件でした","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:03:03.349Z","id":"closed_2","attempt":1,"expected":"これにて、一件落着！","transcript":"これにて一件落着","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:03:08.334Z","id":"closed_3","attempt":1,"expected":"事件は解決した。だが、会議はまだ続く…。","transcript":"事件は解決した。だが、会議はまだ続く。","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:03:09.356Z","id":"closed_4","attempt":1,"expected":"今日もいい仕事をしたな。","transcript":"今日もいい仕事をしたな","ok":true,"similarity":1,"reasons":[]}
+{"at":"2026-10-08T13:03:15.006Z","id":"closed_5","attempt":1,"expected":"…ふっ。また会おう、名探偵。","transcript":"ふっ、また会おう、名探偵。","ok":true,"similarity":1,"reasons":[]}
+{"at": "2026-10-08T13:03:55.003267Z", "id": "solve_2", "attempt": "manual-review", "expected": "流石、名探偵！", "transcript": "さすが名探偵", "ok": true, "similarity": 1.0, "reasons": [], "note": "4回とも「さすが名探偵」と書き起こし。流石→さすがの表記ゆれのみで内容は一致と判断し、READING_VARIANTS を追加して合格扱いにした"}

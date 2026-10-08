@@ -28,4 +28,14 @@ node tools/generate-assets.mjs                 # 未生成分だけ生成（tool
 node tools/generate-assets.mjs --only <jobId> --force   # 特定シートを作り直し
 python tools/slice_sheets.py                   # 切り出し → public/assets/ + manifest.json
 ```
+### 音声（ナレーション・ジングル・効果音）
+環境変数 `GeminiAPI` がある状態で:
+```
+node tools/generate-audio.mjs          # ナレーション（gemini-3.8-flash-tts / ja-jp-storyteller-4）+ ジングル（lyria-3-clip）
+python tools/make_sfx.py               # 効果音（numpy 合成）
+node tools/generate-audio.mjs --manifest-only
+```
+セリフは `tools/voice-lines.json`（start / solve / lastOne / allSolved / closed）。追加すればランダムに出ます。
+
+### 画像
 素材・テーマ・タイトル語句は `tools/asset-spec.json` に定義。モデルは gpt-image-2.5-sunburst（透過 PNG）。

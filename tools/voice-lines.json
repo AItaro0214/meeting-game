@@ -1,0 +1,69 @@
+{
+  "tts": {
+    "model": "gemini-3.8-flash-tts",
+    "verifyModel": "gemini-3.8-flash",
+    "voiceName": "ja-jp-storyteller-4",
+    "languageCode": "ja-JP",
+    "sampleRate": 24000,
+    "persona": "名探偵ナレーター",
+    "personaDescription": "渋くて少しユーモラスなハードボイルド探偵ドラマのナレーター。",
+    "verifyPrompt": "一字一句書き起こし。書き起こしのみ出力。"
+  },
+  "lines": {
+    "start": [
+      { "text": "事件だ！", "style": "Tense, sharp, dramatic announcement of a new case." },
+      { "text": "やれやれ…また事件か。腕が鳴るぜ。", "style": "Weary sigh first, then a confident smirk." },
+      { "text": "現場に急行するぞ！", "style": "Urgent, energetic, commanding." },
+      { "text": "さあ、謎を解き明かそうじゃないか。", "style": "Calm, intrigued, quietly confident." },
+      { "text": "…静かすぎる。事件の匂いがするな。", "style": "Low, suspicious, slow and atmospheric." },
+      { "text": "諸君、事件発生だ！", "style": "Theatrical, booming, rallying the team." }
+    ],
+    "solve": [
+      { "text": "良い調子だ！", "style": "Upbeat, encouraging." },
+      { "text": "流石、名探偵！", "style": "Impressed, praising with a grin." },
+      { "text": "大事な話だな…。", "style": "Serious, thoughtful, slow." },
+      { "text": "ほう…そう来たか。", "style": "Intrigued, amused." },
+      { "text": "一歩前進だ。", "style": "Steady, satisfied." },
+      { "text": "なるほど、これで繋がった。", "style": "Realization, sharp and pleased." },
+      { "text": "冴えてるじゃないか。", "style": "Playful praise, smirking." },
+      { "text": "見事な推理だ。", "style": "Admiring, warm." },
+      { "text": "この調子で行こう。", "style": "Encouraging, brisk." },
+      { "text": "真相に近づいてきたぞ…。", "style": "Building suspense, low and excited." }
+    ],
+    "lastOne": [
+      { "text": "残る謎は、あと一つ…。", "style": "Suspenseful, slow, dramatic pause." },
+      { "text": "いよいよ大詰めだな。", "style": "Tense, focused." },
+      { "text": "最後の手がかりだ。気を抜くなよ。", "style": "Serious warning, steady." }
+    ],
+    "allSolved": [
+      { "text": "すべての謎が…解けた！", "style": "Triumphant reveal, dramatic pause then strong." },
+      { "text": "これで全てが繋がった！", "style": "Excited realization." },
+      { "text": "さあ、事件の全貌を語ろうか。", "style": "Grand, theatrical, confident." },
+      { "text": "ついに、真相が明らかになったな。", "style": "Satisfied, deep, dramatic." }
+    ],
+    "closed": [
+      { "text": "悲しい…事件でした…。", "style": "Melancholic, slow, heavy sighs between words, theatrical sadness." },
+      { "text": "これにて、一件落着！", "style": "Cheerful, satisfied, punchy." },
+      { "text": "事件は解決した。だが、会議はまだ続く…。", "style": "Wry, dramatic, ending narration." },
+      { "text": "今日もいい仕事をしたな。", "style": "Relaxed, warm, content." },
+      { "text": "…ふっ。また会おう、名探偵。", "style": "Cool, quiet smirk, farewell." }
+    ]
+  },
+  "music": [
+    {
+      "id": "intro",
+      "seconds": 4.5,
+      "prompt": "Film-noir detective drama opening sting for a Japanese mystery game. The track must start IMMEDIATELY at full intensity: the very first sound at time 0.0 is a loud, punchy brass stab (DUN-DUN-DUN-DUUN) over low, dramatic string tremolo and timpani. No silence, no fade-in, no intro, no build-up. Tense, sharp, suspenseful incident-discovery feel. Instrumental only, no vocals, short cinematic cue."
+    },
+    {
+      "id": "reveal",
+      "seconds": 4.0,
+      "prompt": "Glamorous, triumphant orchestral hit for the moment a mystery is solved. The track must start IMMEDIATELY: the first sound at time 0.0 is a huge full-orchestra chord hit with brass and timpani roll, no silence and no lead-in. Then bright strings sweep upward into a theatrical flourish. Dramatic and exciting reveal of the truth. Instrumental only, no vocals, short."
+    },
+    {
+      "id": "closed",
+      "seconds": 6.0,
+      "prompt": "Relaxed, warm, cheerful light jazz ending phrase after a case is closed. The track must start IMMEDIATELY at time 0.0 with a bright piano chord and a swinging rhythm section, no silence and no intro. A happy saxophone or muted-trumpet melody, feel-good and content, a satisfying finish. Instrumental only, no vocals, short."
+    }
+  ]
+}
