@@ -1,0 +1,5 @@
+# 生成元の生画像（大きいので除外。tools/generate-assets.mjs で再生成可能）
+tools/raw/
+# 事件ファイル（ローカルのセーブデータ）
+data/
+node_modules/

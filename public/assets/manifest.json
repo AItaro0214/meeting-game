@@ -1,0 +1,1103 @@
+{
+  "version": 1,
+  "themes": [
+    {
+      "id": "snack",
+      "name": "つまみ食い",
+      "weight": 3,
+      "titlePlaces": [
+        "給湯室",
+        "冷蔵庫前",
+        "真夜中の台所",
+        "休憩スペース",
+        "おやつ棚の前"
+      ],
+      "titleNouns": [
+        "プリン消失",
+        "おやつ横領",
+        "つまみ食い",
+        "シュークリーム蒸発",
+        "ドーナツ行方不明"
+      ]
+    },
+    {
+      "id": "office",
+      "name": "オフィス",
+      "weight": 1,
+      "titlePlaces": [
+        "夜のオープンオフィス",
+        "会議室",
+        "コピー機の前",
+        "役員フロア",
+        "残業部屋"
+      ],
+      "titleNouns": [
+        "企画書消失",
+        "印鑑行方不明",
+        "議事録改ざん",
+        "USB紛失事件",
+        "決裁書すり替え",
+        "納期ずらし事件"
+      ]
+    },
+    {
+      "id": "mansion",
+      "name": "洋館",
+      "weight": 1,
+      "titlePlaces": [
+        "洋館の書斎",
+        "暖炉の間",
+        "図書室",
+        "屋敷の廊下",
+        "肖像画の部屋"
+      ],
+      "titleNouns": [
+        "家宝の宝石盗難",
+        "額縁すり替え",
+        "燭台消失",
+        "手紙の封印破り",
+        "執事の秘密"
+      ]
+    },
+    {
+      "id": "train",
+      "name": "寝台列車",
+      "weight": 1,
+      "titlePlaces": [
+        "食堂車",
+        "個室寝台",
+        "車両連結部",
+        "夜行列車の食堂車"
+      ],
+      "titleNouns": [
+        "車内販売紛失",
+        "切符すり替え",
+        "トランク失踪",
+        "ティーカップ事件",
+        "時刻表改ざん"
+      ]
+    },
+    {
+      "id": "museum",
+      "name": "美術館",
+      "weight": 1,
+      "titlePlaces": [
+        "展示室",
+        "ガラスケース前",
+        "特別展会場",
+        "収蔵庫",
+        "学芸員の控室"
+      ],
+      "titleNouns": [
+        "展示品消失",
+        "名画すり替え",
+        "空っぽのケース",
+        "修復失敗事件",
+        "ガラスケース破り"
+      ]
+    },
+    {
+      "id": "cafe",
+      "name": "純喫茶",
+      "weight": 1,
+      "titlePlaces": [
+        "純喫茶",
+        "カウンター席",
+        "サイフォンの前",
+        "喫茶店の奥席",
+        "マスターの店"
+      ],
+      "titleNouns": [
+        "サイフォン消失",
+        "ナポリタン横領",
+        "ケーキ一切れ事件",
+        "常連客の不在",
+        "コーヒー豆すり替え"
+      ]
+    },
+    {
+      "id": "onsen",
+      "name": "温泉旅館",
+      "weight": 1,
+      "titlePlaces": [
+        "宴会場",
+        "大広間",
+        "旅館の廊下",
+        "温泉の前",
+        "お膳の並ぶ部屋"
+      ],
+      "titleNouns": [
+        "お膳の天ぷら消失",
+        "座布団争奪戦",
+        "浴衣すり替え",
+        "宴会幹事の失踪",
+        "徳利ごまかし事件"
+      ]
+    },
+    {
+      "id": "harbor",
+      "name": "港町",
+      "weight": 1,
+      "titlePlaces": [
+        "夕暮れの港",
+        "倉庫街",
+        "波止場",
+        "荷揚げ場",
+        "木箱の陰"
+      ],
+      "titleNouns": [
+        "木箱の中身すり替え",
+        "漁網の行方",
+        "釣果の横領",
+        "クレーン事件",
+        "倉庫番の沈黙"
+      ]
+    },
+    {
+      "id": "camp",
+      "name": "キャンプ場",
+      "weight": 1,
+      "titlePlaces": [
+        "キャンプ場",
+        "焚き火の跡",
+        "テントの前",
+        "夕暮れの森",
+        "バーベキュー台"
+      ],
+      "titleNouns": [
+        "マシュマロ消失",
+        "ランタン行方不明",
+        "寝袋すり替え",
+        "焚き火の後始末",
+        "ホールケーキ分割事件"
+      ]
+    },
+    {
+      "id": "party",
+      "name": "ホームパーティー",
+      "weight": 1,
+      "titlePlaces": [
+        "ホームパーティー会場",
+        "ケーキの前",
+        "飾りつけ部屋",
+        "リビング",
+        "ゲームコーナー"
+      ],
+      "titleNouns": [
+        "ケーキ一切れ消失",
+        "クラッカー暴発事件",
+        "風船割り事件",
+        "乾杯の裏切り",
+        "主役の行方不明"
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "bg_snack_pantry",
+      "theme": "snack",
+      "name": "オフィスの給湯室",
+      "file": "assets/bg/bg_snack_pantry.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_snack_kitchen",
+      "theme": "snack",
+      "name": "真夜中の家庭のキッチン",
+      "file": "assets/bg/bg_snack_kitchen.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_office",
+      "theme": "office",
+      "name": "夜のオフィス",
+      "file": "assets/bg/bg_office.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_mansion",
+      "theme": "mansion",
+      "name": "洋館の書斎",
+      "file": "assets/bg/bg_mansion.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_train",
+      "theme": "train",
+      "name": "寝台列車の食堂車",
+      "file": "assets/bg/bg_train.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_museum",
+      "theme": "museum",
+      "name": "美術館の展示室",
+      "file": "assets/bg/bg_museum.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_cafe",
+      "theme": "cafe",
+      "name": "純喫茶",
+      "file": "assets/bg/bg_cafe.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_onsen",
+      "theme": "onsen",
+      "name": "温泉旅館の宴会場",
+      "file": "assets/bg/bg_onsen.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_harbor",
+      "theme": "harbor",
+      "name": "夕暮れの港の倉庫",
+      "file": "assets/bg/bg_harbor.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_camp",
+      "theme": "camp",
+      "name": "夕暮れのキャンプ場",
+      "file": "assets/bg/bg_camp.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    },
+    {
+      "id": "bg_party",
+      "theme": "party",
+      "name": "ホームパーティー会場",
+      "file": "assets/bg/bg_party.jpg",
+      "width": 1536,
+      "height": 1024,
+      "floorY": 0.86
+    }
+  ],
+  "characters": [
+    {
+      "id": "ch_office_1",
+      "label": "冷や汗の新人社員",
+      "expression": "nervous",
+      "themes": [
+        "office",
+        "snack"
+      ],
+      "file": "assets/chars/ch_office_1.png",
+      "width": 261,
+      "height": 866
+    },
+    {
+      "id": "ch_office_2",
+      "label": "激怒する部長",
+      "expression": "furious",
+      "themes": [
+        "office"
+      ],
+      "file": "assets/chars/ch_office_2.png",
+      "width": 471,
+      "height": 883
+    },
+    {
+      "id": "ch_office_3",
+      "label": "不敵に笑う経理",
+      "expression": "smug",
+      "themes": [
+        "office"
+      ],
+      "file": "assets/chars/ch_office_3.png",
+      "width": 330,
+      "height": 900
+    },
+    {
+      "id": "ch_office_4",
+      "label": "あくびするエンジニア",
+      "expression": "sleepy",
+      "themes": [
+        "office"
+      ],
+      "file": "assets/chars/ch_office_4.png",
+      "width": 319,
+      "height": 900
+    },
+    {
+      "id": "ch_mansion_1",
+      "label": "無表情の執事",
+      "expression": "deadpan",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/chars/ch_mansion_1.png",
+      "width": 298,
+      "height": 900
+    },
+    {
+      "id": "ch_mansion_2",
+      "label": "悲鳴をあげるメイド",
+      "expression": "shocked",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/chars/ch_mansion_2.png",
+      "width": 405,
+      "height": 876
+    },
+    {
+      "id": "ch_mansion_3",
+      "label": "高笑いする貴婦人",
+      "expression": "haughty",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/chars/ch_mansion_3.png",
+      "width": 548,
+      "height": 900
+    },
+    {
+      "id": "ch_mansion_4",
+      "label": "疑いの目の庭師",
+      "expression": "suspicious",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/chars/ch_mansion_4.png",
+      "width": 288,
+      "height": 900
+    },
+    {
+      "id": "ch_travel_1",
+      "label": "青ざめる車掌",
+      "expression": "pale",
+      "themes": [
+        "train",
+        "onsen"
+      ],
+      "file": "assets/chars/ch_travel_1.png",
+      "width": 278,
+      "height": 888
+    },
+    {
+      "id": "ch_travel_2",
+      "label": "大はしゃぎの旅行者",
+      "expression": "excited",
+      "themes": [
+        "train",
+        "onsen"
+      ],
+      "file": "assets/chars/ch_travel_2.png",
+      "width": 594,
+      "height": 900
+    },
+    {
+      "id": "ch_travel_3",
+      "label": "にこやかな女将",
+      "expression": "smiling",
+      "themes": [
+        "train",
+        "onsen"
+      ],
+      "file": "assets/chars/ch_travel_3.png",
+      "width": 280,
+      "height": 859
+    },
+    {
+      "id": "ch_travel_4",
+      "label": "酔って赤ら顔の浴衣客",
+      "expression": "drunk",
+      "themes": [
+        "train",
+        "onsen"
+      ],
+      "file": "assets/chars/ch_travel_4.png",
+      "width": 397,
+      "height": 844
+    },
+    {
+      "id": "ch_culture_1",
+      "label": "頭を抱える学芸員",
+      "expression": "worried",
+      "themes": [
+        "museum",
+        "cafe"
+      ],
+      "file": "assets/chars/ch_culture_1.png",
+      "width": 351,
+      "height": 900
+    },
+    {
+      "id": "ch_culture_2",
+      "label": "号泣する画家",
+      "expression": "crying",
+      "themes": [
+        "museum",
+        "cafe"
+      ],
+      "file": "assets/chars/ch_culture_2.png",
+      "width": 297,
+      "height": 900
+    },
+    {
+      "id": "ch_culture_3",
+      "label": "腕組みの喫茶マスター",
+      "expression": "stern",
+      "themes": [
+        "museum",
+        "cafe"
+      ],
+      "file": "assets/chars/ch_culture_3.png",
+      "width": 320,
+      "height": 900
+    },
+    {
+      "id": "ch_culture_4",
+      "label": "くすくす笑う店員",
+      "expression": "giggling",
+      "themes": [
+        "museum",
+        "cafe"
+      ],
+      "file": "assets/chars/ch_culture_4.png",
+      "width": 214,
+      "height": 900
+    },
+    {
+      "id": "ch_outdoor_1",
+      "label": "不機嫌な漁師",
+      "expression": "grumpy",
+      "themes": [
+        "harbor",
+        "camp"
+      ],
+      "file": "assets/chars/ch_outdoor_1.png",
+      "width": 342,
+      "height": 900
+    },
+    {
+      "id": "ch_outdoor_2",
+      "label": "怯えるキャンパー",
+      "expression": "scared",
+      "themes": [
+        "harbor",
+        "camp"
+      ],
+      "file": "assets/chars/ch_outdoor_2.png",
+      "width": 326,
+      "height": 830
+    },
+    {
+      "id": "ch_outdoor_3",
+      "label": "目をそらす倉庫番",
+      "expression": "guilty",
+      "themes": [
+        "harbor",
+        "camp"
+      ],
+      "file": "assets/chars/ch_outdoor_3.png",
+      "width": 313,
+      "height": 854
+    },
+    {
+      "id": "ch_outdoor_4",
+      "label": "張り切るボーイスカウト隊長",
+      "expression": "proud",
+      "themes": [
+        "harbor",
+        "camp"
+      ],
+      "file": "assets/chars/ch_outdoor_4.png",
+      "width": 402,
+      "height": 872
+    },
+    {
+      "id": "ch_wild_1",
+      "label": "考え込む探偵",
+      "expression": "thinking",
+      "themes": [
+        "any"
+      ],
+      "file": "assets/chars/ch_wild_1.png",
+      "width": 388,
+      "height": 900
+    },
+    {
+      "id": "ch_wild_2",
+      "label": "敬礼して驚く警官",
+      "expression": "surprised",
+      "themes": [
+        "any"
+      ],
+      "file": "assets/chars/ch_wild_2.png",
+      "width": 489,
+      "height": 900
+    },
+    {
+      "id": "ch_wild_3",
+      "label": "口元にクリームのついた容疑者",
+      "expression": "caught",
+      "themes": [
+        "any"
+      ],
+      "file": "assets/chars/ch_wild_3.png",
+      "width": 296,
+      "height": 900
+    },
+    {
+      "id": "ch_wild_4",
+      "label": "口にパンをくわえた太った猫",
+      "expression": "innocent",
+      "themes": [
+        "any"
+      ],
+      "file": "assets/chars/ch_wild_4.png",
+      "width": 309,
+      "height": 695
+    }
+  ],
+  "items": [
+    {
+      "id": "it_snack_1",
+      "label": "食べかけのプリン",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_1.png",
+      "width": 300,
+      "height": 282
+    },
+    {
+      "id": "it_snack_2",
+      "label": "空のドーナツ箱",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_2.png",
+      "width": 306,
+      "height": 310
+    },
+    {
+      "id": "it_snack_3",
+      "label": "食べかすの残った皿",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_3.png",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "id": "it_snack_4",
+      "label": "チョコの包み紙",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_4.png",
+      "width": 323,
+      "height": 238
+    },
+    {
+      "id": "it_snack_5",
+      "label": "かじられたシュークリーム",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_5.png",
+      "width": 267,
+      "height": 236
+    },
+    {
+      "id": "it_snack_6",
+      "label": "汚れたフォーク",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_6.png",
+      "width": 280,
+      "height": 292
+    },
+    {
+      "id": "it_snack_7",
+      "label": "半分のメロン",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_7.png",
+      "width": 306,
+      "height": 273
+    },
+    {
+      "id": "it_snack_8",
+      "label": "開封済みのせんべい袋",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_8.png",
+      "width": 298,
+      "height": 296
+    },
+    {
+      "id": "it_snack_9",
+      "label": "牛乳パック",
+      "themes": [
+        "snack",
+        "party",
+        "cafe"
+      ],
+      "file": "assets/items/it_snack_9.png",
+      "width": 179,
+      "height": 343
+    },
+    {
+      "id": "it_office_1",
+      "label": "書類フォルダ",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_1.png",
+      "width": 313,
+      "height": 300
+    },
+    {
+      "id": "it_office_2",
+      "label": "USBメモリ",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_2.png",
+      "width": 282,
+      "height": 216
+    },
+    {
+      "id": "it_office_3",
+      "label": "飲みかけのマグカップ",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_3.png",
+      "width": 279,
+      "height": 269
+    },
+    {
+      "id": "it_office_4",
+      "label": "ホッチキス",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_4.png",
+      "width": 318,
+      "height": 204
+    },
+    {
+      "id": "it_office_5",
+      "label": "ノートPC",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_5.png",
+      "width": 357,
+      "height": 180
+    },
+    {
+      "id": "it_office_6",
+      "label": "印鑑",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_6.png",
+      "width": 267,
+      "height": 209
+    },
+    {
+      "id": "it_office_7",
+      "label": "ひびの入った眼鏡",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_7.png",
+      "width": 371,
+      "height": 156
+    },
+    {
+      "id": "it_office_8",
+      "label": "社員証カード",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_8.png",
+      "width": 239,
+      "height": 352
+    },
+    {
+      "id": "it_office_9",
+      "label": "スマートフォン",
+      "themes": [
+        "office",
+        "any"
+      ],
+      "file": "assets/items/it_office_9.png",
+      "width": 230,
+      "height": 327
+    },
+    {
+      "id": "it_treasure_1",
+      "label": "大粒の宝石",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_1.png",
+      "width": 234,
+      "height": 254
+    },
+    {
+      "id": "it_treasure_2",
+      "label": "古い鍵",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_2.png",
+      "width": 158,
+      "height": 332
+    },
+    {
+      "id": "it_treasure_3",
+      "label": "懐中時計",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_3.png",
+      "width": 270,
+      "height": 325
+    },
+    {
+      "id": "it_treasure_4",
+      "label": "燭台",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_4.png",
+      "width": 249,
+      "height": 327
+    },
+    {
+      "id": "it_treasure_5",
+      "label": "虫眼鏡",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_5.png",
+      "width": 299,
+      "height": 308
+    },
+    {
+      "id": "it_treasure_6",
+      "label": "封蝋つきの手紙",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_6.png",
+      "width": 314,
+      "height": 218
+    },
+    {
+      "id": "it_treasure_7",
+      "label": "小さな額縁の絵",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_7.png",
+      "width": 306,
+      "height": 300
+    },
+    {
+      "id": "it_treasure_8",
+      "label": "割れた花瓶",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_8.png",
+      "width": 325,
+      "height": 321
+    },
+    {
+      "id": "it_treasure_9",
+      "label": "チェスの駒",
+      "themes": [
+        "mansion",
+        "museum"
+      ],
+      "file": "assets/items/it_treasure_9.png",
+      "width": 136,
+      "height": 328
+    },
+    {
+      "id": "it_travel_1",
+      "label": "切符",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_1.png",
+      "width": 329,
+      "height": 225
+    },
+    {
+      "id": "it_travel_2",
+      "label": "古いトランク",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_2.png",
+      "width": 316,
+      "height": 273
+    },
+    {
+      "id": "it_travel_3",
+      "label": "ティーカップ",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_3.png",
+      "width": 309,
+      "height": 213
+    },
+    {
+      "id": "it_travel_4",
+      "label": "徳利とおちょこ",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_4.png",
+      "width": 268,
+      "height": 289
+    },
+    {
+      "id": "it_travel_5",
+      "label": "手ぬぐい",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_5.png",
+      "width": 324,
+      "height": 286
+    },
+    {
+      "id": "it_travel_6",
+      "label": "スリッパ片方",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_6.png",
+      "width": 290,
+      "height": 255
+    },
+    {
+      "id": "it_travel_7",
+      "label": "フィルムカメラ",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_7.png",
+      "width": 335,
+      "height": 244
+    },
+    {
+      "id": "it_travel_8",
+      "label": "コーヒーサイフォン",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_8.png",
+      "width": 192,
+      "height": 343
+    },
+    {
+      "id": "it_travel_9",
+      "label": "ショートケーキ一切れ",
+      "themes": [
+        "train",
+        "onsen",
+        "cafe"
+      ],
+      "file": "assets/items/it_travel_9.png",
+      "width": 330,
+      "height": 271
+    },
+    {
+      "id": "it_outdoor_1",
+      "label": "ランタン",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_1.png",
+      "width": 176,
+      "height": 334
+    },
+    {
+      "id": "it_outdoor_2",
+      "label": "ロープの束",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_2.png",
+      "width": 305,
+      "height": 243
+    },
+    {
+      "id": "it_outdoor_3",
+      "label": "懐中電灯",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_3.png",
+      "width": 299,
+      "height": 229
+    },
+    {
+      "id": "it_outdoor_4",
+      "label": "焼きマシュマロの串",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_4.png",
+      "width": 248,
+      "height": 309
+    },
+    {
+      "id": "it_outdoor_5",
+      "label": "一切れ欠けたホールケーキ",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_5.png",
+      "width": 325,
+      "height": 262
+    },
+    {
+      "id": "it_outdoor_6",
+      "label": "クラッカー",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_6.png",
+      "width": 290,
+      "height": 318
+    },
+    {
+      "id": "it_outdoor_7",
+      "label": "しぼんだ風船",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_7.png",
+      "width": 302,
+      "height": 244
+    },
+    {
+      "id": "it_outdoor_8",
+      "label": "泥だらけの長靴",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_8.png",
+      "width": 250,
+      "height": 325
+    },
+    {
+      "id": "it_outdoor_9",
+      "label": "釣り竿",
+      "themes": [
+        "camp",
+        "harbor",
+        "party"
+      ],
+      "file": "assets/items/it_outdoor_9.png",
+      "width": 329,
+      "height": 303
+    }
+  ]
+}
